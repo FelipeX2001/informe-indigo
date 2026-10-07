@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-indigo-bg: #F0F5FA;
+  --color-indigo-light: #60A5FA;
+  --color-indigo-main: #2563EB;
+  --color-indigo-accent: #1E40AF;
+  --color-indigo-dark: #0F172A;
+  --font-sans: 'Montserrat', sans-serif;
+  --background-image-indigo-gradient: linear-gradient(135deg, #1E40AF 0%, #0F172A 100%);
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F0F5FA;
+}
+::-webkit-scrollbar-thumb {
+  background: #60A5FA; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB; 
+}
+html {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}

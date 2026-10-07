@@ -1,0 +1,8 @@
+{
+  "name": "Informe de Gestión - Índigo PH | Agosto 2026",
+  "description": "Informe Oficial de Gestión Administrativa, Operativa y Financiera para el Conjunto Residencial Índigo PH - Período Agosto 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
